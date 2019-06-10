@@ -1,87 +1,55 @@
 body {
-  background-color: #17202A;
-  font-family: "Helvetica", serif;
-  margin: 0;
-  padding: 0;
+	margin: 0px;
 }
 
-.header {
-  background-color: white;
-  color: black;
-  padding-top: 10px;
-  height: 60px;
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: gray;
+	overflow: hidden;
+	position: sticky
+	top: 0;
+	border: 1px solid black;
+	
 }
 
-.innerheader {
-  height: 51px;
-  padding-left: 30px;
+li {
+	float: left;
+	font-size: 24px;
 }
 
-.headerLogo {
-  float: left;
-  margin: 0px;
-  height: 51px;
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none:
 }
 
-.headerNav {
-  height: 50px;
-  margin: 0px;
-  padding-top: 0px;
-  display: inline-block;
-  box-sizing: border-box;
-  overflow: hidden;
+li a:hover {
+	background-color: #4CAF50;
 }
 
-.headerNav ul {
-  margin: 0px;
-  padding: 16px;
-  float: left;
+a {
+	text-decoration: none;
 }
 
-.headerNav ul a {
-  text-decoration: none;
-  text-decoration-style: solid;
-  color: black;
+.active {
+	background-color: orange;
 }
 
-.headerNav ul a:hover {
-  color: blue;
+li {
+	border-right: 1px solid #bbb;
 }
 
-.headerNavSocial {
-  height: 50px;
-  margin: 0px;
-  padding-right: 20px;
-  padding-left: 20px;
-  display: inline-block;
-  box-sizing: border-box;
-  overflow: hidden;
-  float: right;
+li:last-child {
+	border-right: none;
 }
 
-.headerNavSocial ul {
-  margin: 0px;
-  padding: 16px;
-  float: left;
-  filter: invert(100%);
-}
-
-.entryspot {
-  color: white;
-  padding: 10px;
-  margin: 10px;
-  list-style-type: none;
-}
-
-.entryspot li {
-  background-color: black;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 5px solid white;
-  border-radius: 10px;
-}
-
-.entryspot li h2 {
-  margin: 0px;
-  text-align: center;
+.headImage {
+	margin: 0;
+	border: none;
+	display: block;
+	overflow: hidden;
 }
