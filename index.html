@@ -1,23 +1,91 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en-au">
 <head>
 <link rel="stylesheet" href="style.css">
+<title>Index</title>
 </head>
 <body>
 <div id="header">
 <img class="headImage" src="test.jpg" alt="Mike Seach Banner" style="width:100%">
 </div>
-<ul>
+<ul class="navBar">
 <li><a class="active" href="index.html">Home</a></li>
 <li><a href="about.html">About</a></li>
 <li><a href="contact.html">Contact</a></li>
 <li style="float:right"><a href="reference.html">Reference</a></li>
 </ul>
-<div id="indextext">
-<p>
-Testing the text on the main <br>
-page for this site<br>
-Making sure all this stuff works
+<div id="projectext">
+<h1 id="abouth1" style="margin:20px;">Projects:</h1>
+ </div>
+ <div id="sometext">
+ <div id="left">
+ <p id="aboutParagraph">
+ The potential project I would like to achieve is something directly related to my current workplace. 
+I would like to develop a web-based form that integrates with a database to streamline to current 
+process for custom orders and laybys in my workplace. In early stages, it would simplify system that 
+better keeps track of orders and their current progress, with the aim to eventually add notifications 
+and POS integration.  <br>
+<br>
+ We are currently using a very outdated, and almost archaic paper system for customer orders and laybys. 
+ This system is prone to failure thanks to double handling and no set guide to how things should be done, 
+ and no accountability. We have had many cases of confusion when a customer arrives to pick up their 
+ order and it hasn’t had the payment processed, or hasn’t been built, and, in rare cases, was never ordered. 
+ This, in the very least, is embarrassing for the business, but also frustrating for staff. I have no doubt 
+ I can develop the required skills to design and develop such a system that would remove a lot of the room 
+ for error that is currently in place with the current set up. 
+<br>
+ The current plan for the system would be to create a Web Based form that can be hosted on a local server, 
+ run next to an online POS system that can be used when creating a layby or custom order for a customer. 
+ In the early version it would require having all relevant information entered by the sales staff at the 
+ time of the sale. Relevant information would include customer details, name, email address and mobile number. 
+ This would be followed by the details of the order, brand, model, size, etc. After that it would move to 
+ the current status of the payment. As orders require a 20% deposit, it would ask if this has been paid, 
+ with only a yes/no answer available to the user. Depending upon that answer, the next pages would either 
+ move onto the Order stage of the process or to ask for further information regarding the status of payment. 
+ As this company uses bank transfers regularly for customer payments, if staff had selected “no” at the 
+ Deposit Received section, it would then ask if they’re paying by bank transfer. Upon selecting Yes for 
+ that, it would remind the relevant staff member daily to check the status of the incoming payment and 
+ update it in the system. <br>
+<br>
+The rest of the system is intended to remove the room for error that stands in the current paper system 
+by providing daily reminders to the relevant staff depending upon the status of the order. If the deposit 
+or payment hasn’t been provided, it will remind the Accountant to check the status of the payment daily 
+and update it as things change. Without the deposit supplied, it will not allow the order to transfer 
+back to sales for the product to be marked as ordered from the supplier.  At this stage, it will remind 
+sales staff to order the item, and mark it as ordered on the system, when it will transfer to the staff 
+member in charge of managing incoming stock to mark it as arrived. From there, once the item has arrived, 
+it will either remind sales to contact the customer to let them know it is in, or in the case of it 
+needing to be assembled, to book it in with the mechanics for a build. <br>
+<br>
+There would be several conditional checks that would need to add to ensure correct operation. And if successful, 
+I would like to see it turn into something more customizable for use in other businesses.  <br>
+<br>
+I would need a much greater understanding of web design and database construction, and how to integrate the two.
+At the base level, a text editor, such as NotePad++ would be required to create the webform, and a database 
+program such as Microsoft Access to create the database where relevant data would be stored and accessed from. 
+It is still definitely an achievable goal at my current knowledge level, and with study and research, 
+I’ve no doubt it could become a reality in time. <br>
+<br>
+The integration of this program into the business would resolve the current issues with the paper system 
+and hopefully make things significantly easier when it comes to new staff coming on board. It’s a lot easier 
+to train staff to use a program that basically holds your hand, compared to moving a piece of paper from 
+bulldog clip to bulldog clip. Beyond the initial impact with this business, it could be a cost effect piece 
+of software for smaller retail companies that deal with a lot of customer orders, although that would 
+require customizing the options to suit each business. With time and more knowledge, I could see this 
+becoming a basic software package, allowing the user to choose what options they need for their business, 
+and allowing it run on a single machine. <br>
+<br>
+</p>
+ </div>
+ <div id="right">
+ <img src="flowchart.png" alt="Flow Chart of Project">
+ </div>
+</div>
+<br>
+<div class="footer">
+<p id="footer1">
+Created by Michael Seach
 </p>
 </div>
 </body>
+</html>

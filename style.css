@@ -3,7 +3,7 @@ body {
 	background-color: #8c8c8c;
 }
 
-ul {
+.navBar {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -54,3 +54,70 @@ li:last-child {
 	display: block;
 	overflow: hidden;
 }
+
+#contacth1 {
+	font-size: 36px;
+	text-decoration: underline;
+}
+
+#contactable {
+	font-size: 24px;
+}
+
+#sometext {
+	display: flex;
+	margin:20px;
+}
+
+#left {
+	flex: 0 0 65%;
+}
+
+#abouth1 {
+	font-size: 36px;
+	text-decoration: underline;
+}
+
+#aboutParagraph {
+	font-size: 24px;
+}
+
+#right {
+	flex: 1;
+}
+
+#portrait {
+	max-width:50%;
+	max-height:50%;
+}
+
+#portrait1 {
+	max-width:80%;
+	max-height:80%;
+}
+
+#abouth2 {
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+#left1 {
+	flex: 0 0 50%;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #333333;
+	margin-top: 20px;
+}
+
+#footer1 {
+	color: white;
+	text-align: right;
+	font-size: 16px;
+	margin-right: 20px;
+}
+	
